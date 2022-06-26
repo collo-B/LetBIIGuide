@@ -1,4 +1,4 @@
-/*document.addEventListener('DOMContentLoaded',onPageLoad); //page loads
+document.addEventListener('DOMContentLoaded',onPageLoad); //page loads
 
 //Runs on page load;
 function onPageLoad (){ 
