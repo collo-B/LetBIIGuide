@@ -1,0 +1,72 @@
+{
+  "towns": [
+    {
+      "id": 1,
+      "name": "KISUMU",
+      "image_url": "https://tylinktravel.com/wp-content/uploads/2020/12/kisumu-city-image-1280x600.jpg",
+      "description": "Kisumu is a Kenyan port city on Lake Victoria. It’s known for lakeside viewpoints at Dunga Hill Camp and Hippo Point. The Kisumu Impala Sanctuary shelters herds of impalas and zebras. Its animal orphanage is home to wildlife like cheetahs and baboons. The city’s Kisumu Museum displays artifacts related to the people of the Nyanza Province. Southwest, Ruma National Park has tall cliffs, roan antelope and birdlife.",
+      "locationa_url": "https://www.nyongesasande.com/wp-content/uploads/2021/03/Kisumu-Impala-Sanctuary-Gate-750x536.jpg",
+      "locationb_url": "https://hapakenya.com/wp-content/uploads/2018/07/Kit-Mikayi-439x423.jpg",
+      "locationc_url": "https://sharonlumbasi.com/wp-content/uploads/2019/12/Road-Trip-Guide-Rusinga-Island.png",
+      "descriptiona": "Reserve for rare antelopes, buffalo & giraffes, with glass-bottomed boat rides on Lake Victoria.",
+      "cost": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 9000 per night",
+      "descriptionb": "Kit-Mikayi — also spelled Kit Mikayi, Kitmikayi, and Kitmikaye — is a rock formation, a tor, around 120 m high situated about 29 km west of the town of Kisumu in western Kenya.",
+      "costa": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 7500 per night",
+      "descriptionc": "Rusinga Island, with an elongated shape approximately 10 miles from end to end and 3 miles at its widest point, lies in the eastern part of Lake Victoria at the mouth of the Winam Gulf. Part of Kenya, it is linked to Mbita Point on the mainland by a causeway. ",
+      "costb": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 6000 per night",
+      "reviews": [
+        "It's flat! Just the way I like it!!",
+        "Is this the real beer, is this just fantasy?",
+        "I've always hated bubbles going up my nose, so this is absolutely delightful.",
+        "Flat straight out of the bottle! No more waiting for the fizziness to subside. Thank you FlattaBeer!! I love you!!!",
+        "fuzzy fuzzy",
+        "loved kit mikayi",
+        "went"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MOMBASA",
+      "image_url": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2021/05/elephant-tusks-.jpg",
+      "description": "Mombasa is a coastal city in southeastern Kenya along the Indian Ocean. The town is known as the white and blue city in Kenya. It is the country's oldest and second-largest city, with a population of about 1,208,333 people according to the 2019 census.",
+      "locationa_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Mombasa_old_town_view.JPG",
+      "locationb_url": "https://www.kenyaferry.co.ke/wp-content/uploads/2020/12/Reloable-768x504.jpeg",
+      "locationc_url": "https://bonfireadventures.com/new/wp-content/uploads/2022/01/MW6.jpeg",
+      "descriptiona": "Old Town is an area of Mombasa, Kenya. Situated on the south-east side of Mombasa Island, the Old Town covers an area of 72 hectares, and is inhabited by a mix of local, Arab, Asian, Portuguese and British",
+      "cost": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 8000 per night",
+      "descriptionb": "The Likoni Ferry is a ferry service across the Kilindini Harbour, serving the Kenyan city of Mombasa between the Mombasa island side and the mainland suburb of Likoni.",
+      "costa": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 9000 per night",
+      "descriptionc": "Watamu is a small coastal town in Kenya, north of Mombasa. It’s known for Watamu Marine National Park and Reserve, which has 3 bays: Watamu, Blue Lagoon and Turtle. ",
+      "costb": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 12000 per night",
+      "reviews": [
+        "It's flat! Just the way I like it!!",
+        "Is this the real beer is this just fantasy?",
+        "I've always hated bubbles going up my nose, so this is absolutely delightful.",
+        "Flat straight out of the bottle! No more waiting for the fizziness to subside. Thank you FlattaBeer!! I love you!!!",
+        "fuzzy fuzzy"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "NAKURU",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Round_about_in_Nakuru.jpg",
+      "description": "Nakuru is the capital city of Nakuru County, Kenya. It is northwest of Nairobi, in the Great Rift Valley. Nearby is Lake Nakuru National Park, home to rhinos, giraffes, lions and leopards. Lake Nakuru is an algae-filled soda lake that attracts thousands of flamingos.",
+      "locationa_url": "https://www.kenya-experience.com/wp-content/gallery/lake-nakuru-nationalpark-single/featured-Lake-Nakuru-NP_F.jpg",
+      "locationb_url": "https://www.destinationskenya.com/wp-content/uploads/2020/10/Lord_Egerton_Castle_front_view-1024x768-1.jpg",
+      "locationc_url": "https://www.lakenakurukenya.com/wp-content/uploads/2020/07/2-Days-Lake-Nakuru-and-Lake-Bogoria-safari.jpg",
+      "descriptiona": "Lake Nakuru is one of the Rift Valley lakes at an elevation of 1,754 m above sea level. It lies to the south of Nakuru, in the rift valley of Kenya and is protected by Lake Nakuru National Park. ",
+      "cost": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 7000 per night",
+      "descriptionb": "Lord Egerton Castle is a house styled like a fortress located 14 km outside Nakuru, Kenya. The foundation was laid in 1938 by Maurice Egerton, 4th Baron Egerton. ",
+      "costa": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 9000 per night",
+      "descriptionc": "Lake Baringo is, after Lake Turkana, the most northern of the Kenyan Rift Valley lakes, with a surface area of 130 square kilometres and an elevation of 970 metres. The lake is fed by several rivers: the Molo, Perkerra and Ol Arabel. ",
+      "costb": "Standard Double or Twin Room. 1 double or 2 singles   Starting from : Ksh 8000 per night",
+      "reviews": [
+        "It's flat! Just the way I like it!!",
+        "Is this the real beer, is this just fantasy?",
+        "I've always hated bubbles going up my nose, so this is absolutely delightful.",
+        "Flat straight out of the bottle! No more waiting for the fizziness to subside. Thank you FlattaBeer!! I love you!!!",
+        "fuzzy fuzzy"
+      ]
+    }
+  ]
+}

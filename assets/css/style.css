@@ -1,0 +1,264 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+    background-size: contain;
+    background-color:  rgb(75, 64, 64);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(41, 31, 31);
+  height: 100px;
+  border-radius: 15px;
+}
+#cars {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 20px;
+}
+#carone {
+height: 400px;
+width: 600px;
+border-radius: 15px;
+}
+#cartwo {
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(41, 31, 31);
+    text-align: center;
+    margin-top: 30px;
+}
+#icon {
+    height: 10px;
+    width: 10px;
+    margin-left: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+#nav li {
+    display: inline-block;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid whitesmoke;
+  margin-right: 10px;
+}
+#nav {
+    margin-right: 50px;
+}
+#aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#description-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid;
+  border-color: pink;
+  border-radius: 15px;
+  margin-right: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(41, 31, 31);
+}
+#butt {
+  margin-top: 10px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 2px solid;
+  border-color: pink;
+
+}
+#about {
+  margin-right: 90px;
+  margin-left: 90px;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(41, 31, 31);
+  border-radius: 15px;
+}
+#towns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#towns li {
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: pink;
+  width: 100px;
+}
+#townpic {
+  text-align: center;
+}
+#town-image {
+  height: 600px;
+  width: 900px;
+  border-radius: 20px;
+}
+#section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#picpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+#revv {
+  text-align: center;
+}
+#review-list li {
+  border: 2px solid;
+  border-radius: 5px;
+  width: 500px;
+  margin: 4px;
+}
+#review-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-around;
+}
+#review-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin-left: 500px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: pink;
+}
+#review {
+  height: 90px;
+}
+#dess {
+  text-align: center;
+}
+#bookcar {
+  text-align: center;
+}
+#locationa {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+#locationb {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+#locationc {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+#descriptiona {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+#descriptionb {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+#descriptionc {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+#costs {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+  
+}
+#costsa {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+  
+}
+#costsb {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+  
+}
+#book {
+  border: 2px solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  border-color: pink;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#addrevv {
+  width: 80px;
+  padding: 3px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: pink;
+}
+#bookcar {
+  width: 80px;
+  padding: 3px;
+  margin-left: 250px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: pink;
+}
+#dess {
+  font-style: italic;
+}
+#aboutme {
+  font-size: x-large;
+  margin-top: 100px;
+}
+#click {
+  font-size: x-large;
+  color: white;
+}
+#section {
+  border-radius: 20px;
+  background-color: rgb(41, 31, 31);
+}
+#footer-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  margin-left: 50px;
+}
