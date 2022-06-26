@@ -57,7 +57,7 @@ Figma Design -[#LetBIIGuide-APP](https://www.figma.com/file/eTHXUVFGJRrby6fqIUf4
 
 ### Live Link
 
-- Click this link to view the live application 
+- Click this link to view the live application https://collo-b.github.io/LetBIIGuide/
 
 ### Technology Used
 
