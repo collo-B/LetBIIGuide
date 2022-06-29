@@ -5,11 +5,16 @@ function onPageLoad (){
     displayTheFirstTown()
     getTownList();
 }
-//Get the first town and display its details.
+//Get the first town and display its details.${sameTown.id}
 function displayTheFirstTown(){
-    fetch('http://localhost:3000/towns/1')  //fetching the first town details
+    fetch('https://collo-b.github.io/LetBIIGuide/db.json')  //fetching the first town details
     .then(response=>response.json())
-    .then(town=>updateTown(town))
+    .then(townObject=> {
+        console.log(townObject.towns)
+        const townsArray = townObject.towns
+       const firstTown = townsArray.find(town => town.id === 1)
+       updateTown(firstTown)
+    })
     .catch(error=>console.log(error))
 }
 //Displaying town details in the mainsection
@@ -30,7 +35,7 @@ function updateTown(town){
 
 //Fetch all towns and display them to unordered list;
 function getTownList(){
-    fetch('http://localhost:3000/towns')
+    fetch('https://collo-b.github.io/LetBIIGuide/db.json')
     .then(response=>response.json())
     .then(towns =>{
            const townList = document.getElementById('towns');
@@ -48,7 +53,7 @@ function getTownList(){
 //Display a town in main section
 function displayInMain(event){
     const clickedTownName = event.target.textContent;   //Grab the textcontent of the clicked town.
-    fetch('http://localhost:3000/towns')                //fetch all towns
+    fetch('https://collo-b.github.io/LetBIIGuide/db.json')                //fetch all towns
     .then(response=>response.json())
     .then(towns=>{
     let sameTown = towns.find(element=>{
@@ -78,7 +83,7 @@ function displayInMain(event){
                 newReview.remove()
         })
     
-        fetch(`http://localhost:3000/towns`)
+        fetch(`https://collo-b.github.io/LetBIIGuide/db.json`)
         .then(response=>response.json())
         .then(towns=>{
             const displayedTownName = document.getElementById('towns-name').textContent;
@@ -86,7 +91,7 @@ function displayInMain(event){
                 return element.name ===  displayedTownName // check if the name matches  that of  the currently displayed town.
         })
         sameTown.reviews.push(customerReview)
-        fetch(`http://localhost:3000/towns/${sameTown.id}`,{
+        fetch(`https://collo-b.github.io/LetBIIGuide/db.json/${sameTown.id}`,{
             method: 'PATCH',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify({"reviews":sameTown.reviews})
