@@ -37,9 +37,11 @@ function updateTown(town){
 function getTownList(){
     fetch('https://collo-b.github.io/LetBIIGuide/db.json')
     .then(response=>response.json())
-    .then(towns =>{
+    .then(townObject=> {
+            console.log(townObject.towns)
+            const townsArray = townObject.towns
            const townList = document.getElementById('towns');
-           towns.forEach(town=>{
+           townsArray.forEach(town=>{
            let townItem = document.createElement('li');
            townItem.textContent = town.name;
            townItem.addEventListener('click',displayInMain)   // on click,show the details in main section
@@ -55,8 +57,9 @@ function displayInMain(event){
     const clickedTownName = event.target.textContent;   //Grab the textcontent of the clicked town.
     fetch('https://collo-b.github.io/LetBIIGuide/db.json')                //fetch all towns
     .then(response=>response.json())
-    .then(towns=>{
-    let sameTown = towns.find(element=>{
+    .then(townObject=>{
+        const townsArray = townObject.towns
+    let sameTown = townsArray.find(element=>{
                    return element.name === clickedTownName  // check if the name matches the grabbed one.    
         });
         //display in the main section
