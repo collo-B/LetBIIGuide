@@ -179,16 +179,19 @@ border-radius: 15px;
   width: 400px;
   height: 200px;
   text-align: center;
+  color: white;
 }
 #descriptionb {
   width: 400px;
   height: 200px;
   text-align: center;
+  color: white;
 }
 #descriptionc {
   width: 400px;
   height: 200px;
   text-align: center;
+  color: white;
 }
 #costs {
   width: 300px;
@@ -196,6 +199,7 @@ border-radius: 15px;
   margin-bottom: 15px;
   text-align: center;
   font-style: italic;
+  color: white;
   
 }
 #costsa {
@@ -204,6 +208,7 @@ border-radius: 15px;
   margin-bottom: 15px;
   text-align: center;
   font-style: italic;
+  color: white;
   
 }
 #costsb {
@@ -212,6 +217,7 @@ border-radius: 15px;
   margin-bottom: 15px;
   text-align: center;
   font-style: italic;
+  color: white;
   
 }
 #book {
@@ -247,10 +253,12 @@ border-radius: 15px;
 #aboutme {
   font-size: x-large;
   margin-top: 100px;
+  color: white;
+  text-align: center;
 }
 #click {
   font-size: x-large;
-  color: white;
+  color: pink;
 }
 #section {
   border-radius: 20px;
@@ -261,4 +269,36 @@ border-radius: 15px;
   width: 100px;
   border-radius: 15px;
   margin-left: 50px;
+}
+#nav li {
+  background-color: white;
+  display: inline-block;
+  list-style: none;
+}
+#nav a {
+  list-style: none;
+  text-decoration: none;
+}
+.emph {
+  color: pink;
+}
+#ppp {
+  color: white;
+  font-size: larger;
+}
+.townheader h3 {
+  color: white;
+}
+#towns-name {
+  color: white;
+}
+#town-description {
+  color: white;
+}
+#hhh {
+  color: white;
+  font-size: larger;
+}
+#dess {
+  color: white;
 }
